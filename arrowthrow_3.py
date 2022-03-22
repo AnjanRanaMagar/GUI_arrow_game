@@ -1,7 +1,6 @@
-# hw5-2.py
+
 # Date: 11th March, 2022
 # Author: Anjan Rana Magar
-
 
 from graphics import *
 from math import sqrt
@@ -140,15 +139,6 @@ def arrownum_get(win):
     messageBackground.undraw()
     done_message.undraw()
 
-    
-##    entryBox = Entry(Point(20,-20), 15)
-##    entryBox.setText("0")
-##    entryBox.draw(win)
-##
-##    message_score = Text(Point(5,-20), "Total score")
-##    message_score.setSize(15)
-##    message_score.draw(win)
-    
     return getnum
 
     
